@@ -46,3 +46,11 @@ Check the console if you download and run this project
 
 ```
 
+### Character Sets and Quantifiers
+
+```
+Brackets [] => Character sets
+Braces {} => Quantifiers
+Parentheses () => Grouping
+
+```
