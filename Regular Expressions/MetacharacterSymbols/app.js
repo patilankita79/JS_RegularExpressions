@@ -32,6 +32,22 @@ re = /hel{2, }o/i;   // Must occur atleast {m} amount of times
 // Parentheses () => Grouping. Parentheses can be used with Quantifiers
 re =/([0-9]x){3}/;
 
+// Shorthand Character Classes
+re = /\w/;     // Word character - alphanumeric(any letter or any number) or _
+re = /\w+/;    // + => one or more
+re = /W/;      // Non-word character
+re = /\d/;    // Match any digit
+re = /\d+/;      // Match any digit 0 or more times
+re = /\D/;       // Match any non-digit
+re = /\s/;      // Match whitespace character
+re = /\S/;      // Match non whitespace character
+re = /hell\b/i;   // Word boundary
+
+// Assertions
+re = /x(?=y)/;    // Match x only if it is followed by y
+re = /x(?!y)/;    // Match x only if it is not followed by y
+
+
 
 
 // String to match
