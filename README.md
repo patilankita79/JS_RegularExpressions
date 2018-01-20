@@ -38,7 +38,7 @@ Check the console if you download and run this project
 /hello/i        //  Must begin with h and end with o
 /h.llo/i;       // Matches any ONE character
 /h*llo/i;       // Matches any character 0 or more
-/gre?a?yi*      // This means e is optional and a is optional
+/gre?a?y/i      // This means e is optional and a is optional
 
 // To use ? as a literal, we need to use escape character, i.e. prefix the literal with back slash \ (example if I want =>  grey?)
 /gre?a?y\?/
